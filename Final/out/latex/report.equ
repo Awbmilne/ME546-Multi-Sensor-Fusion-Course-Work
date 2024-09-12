@@ -1,0 +1,9 @@
+\contentsline {equations}{\numberline {1}State vector for the Kalman Filter}{2}{equation.1.1}%
+\contentsline {equations}{\numberline {3}Process model for the Kalman Filter}{2}{equation.1.3}%
+\contentsline {equations}{\numberline {4}Range sensor model for the Kalman Filter}{3}{equation.1.4}%
+\contentsline {equations}{\numberline {5}Angle sensor model for the Kalman Filter}{3}{equation.1.5}%
+\contentsline {equations}{\numberline {6}Size sensor model for the Kalman Filter}{4}{equation.1.6}%
+\contentsline {equations}{\numberline {7}Measurement noise covariance matrix}{6}{equation.1.7}%
+\contentsline {equations}{\numberline {9}Process noise covariance matrix}{7}{equation.1.9}%
+\contentsline {equations}{\numberline {10}Weighted sum position calculation}{18}{equation.2.10}%
+\contentsline {equations}{\numberline {11}Weighted sum variance calculation}{18}{equation.2.11}%

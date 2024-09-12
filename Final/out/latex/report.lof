@@ -1,0 +1,17 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces Sonar fish tracking system \cite {final-exam}}}{1}{figure.caption.1}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Training data size measurements}}{4}{figure.caption.2}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Training data position measurements in Cartesian coordinates}}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Training data size reading error distribution}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Training data position measurement error distributions}}{6}{figure.caption.5}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Test fish 0 prediction}}{8}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Training data multi fish tracking prediction compared to real paths}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Test data multi fish tracking prediction}}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Training data cartesian position error distribution}}{13}{figure.caption.13}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Fish count over time}}{14}{figure.caption.14}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Reference frame for ball contact and tracking \cite {final-exam}}}{15}{figure.caption.15}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Kick placement scatter organized by contact area}}{16}{figure.caption.16}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Kick result probability distributions by contact area}}{17}{figure.caption.17}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Kick prediction results}}{19}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Neural network architecture}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Training history}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Gate reaction force estimation}}{23}{figure.caption.24}%

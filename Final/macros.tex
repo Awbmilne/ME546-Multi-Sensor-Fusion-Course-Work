@@ -1,0 +1,117 @@
+
+\usepackage{graphicx}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{multicol}
+\def\arraystretch{1.5}
+\usepackage{tikz}
+\usetikzlibrary{math}
+\usepackage{standalone}
+\usepackage{fancyvrb}
+\usepackage{refcount}
+\usepackage{indentfirst} % Indent first line of first paragraphs
+\usepackage{parskip} % Configure paragraph spacing
+\usepackage{tocloft}
+\usepackage{gensymb}
+\usepackage{tabularx}
+\usepackage{xfrac}
+\usepackage{color,soul}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{longtable}
+\usepackage{enumitem}
+
+% Auto indent the section names in the TOC
+\renewcommand{\numberline}[1]{#1~}
+
+\usepackage[nottoc,notlof,notlot,numbib]{tocbibind} % Add Bibliography to TOC
+
+\setlength{\parindent}{0.5em} % Indent size for start of paragraphs
+\setlength{\parskip}{1em} % Spacing between paragraphs
+
+% Setup references to have hyperlinks
+\usepackage{hyperref}
+\usepackage{breakurl}
+\renewcommand\UrlFont{\rmfamily\small\itshape}
+\hypersetup{
+        colorlinks,
+        citecolor=black,
+        filecolor=black,
+        linkcolor=black,
+        urlcolor=black,
+        linktoc=all
+}
+
+% List of equations
+\newcommand{\listequationsname}{\Large List of Equations}
+\newlistof{equations}{equ}{\listequationsname}
+\newcommand{\equations}[1]{%
+\addcontentsline{equ}{equations}{\protect\numberline{\theequation}#1}\par}
+\setlength{\cftequationsindent}{1.5em}% indent of items in List of Equations
+\setlength{\cftequationsnumwidth}{2.3em}% Width of equation number in List of Equations
+
+% Add Code listings
+\usepackage{listings} 
+\usepackage{csvsimple}
+\usepackage{tabu}
+% This is the color used for Language comments below
+\definecolor{MyDarkGreen}{rgb}{0.0,0.4,0.0}
+\definecolor{backcolour}{rgb}{204,204,204}
+% Rename Listings
+\renewcommand{\lstlistingname}{Listing} % Rename listing to code
+\renewcommand\lstlistlistingname{List of Code Listings} % Rename list of listing to List of Code
+% For faster processing, load python syntax for listings
+\lstloadlanguages{Python}%
+\lstset{language=Python,                        % Use Python
+        frame=tb,                               % Frame on Top and Bottom
+        breaklines=true,                        % Allow breaking lines
+        basicstyle=%
+                \ttfamily                       % Use true type font
+                \lst@ifdisplaystyle\scriptsize\fi, % Use scriptsize for Display-Style listings
+        keywordstyle=[1]\color{blue}\bfseries,  % Language functions bold and blue
+        keywordstyle=[2]\color{purple},         % Language function arguments purple
+        keywordstyle=[3]\color{blue}\underbar,  % User functions underlined and blue
+        identifierstyle=,                       % Nothing special about identifiers
+        % Comments small dark green courier
+        commentstyle=\usefont{T1}{pcr}{m}{sl}\color{MyDarkGreen}\scriptsize,
+        stringstyle=\color{purple},             % Strings are purple
+        showstringspaces=false,                 % Don't put marks in string spaces
+        tabsize=5,                              % 5 spaces per tab
+        %
+        %%% Put standard Language functions not included in the default
+        %%% language here
+        morekeywords={self},
+        %
+        %%% Put Language function parameters here
+        morekeywords=[2]{},
+        %
+        %%% Put user defined functions here
+        morekeywords=[3]{},
+        %
+        morecomment=[l][\color{blue}]{...},     % Line continuation (...) like blue comment
+        numbers=left,                           % Line numbers on left
+        firstnumber=1,                          % Line numbers start with line 1
+        numberstyle=\tiny\color{blue},          % Line numbers are blue
+        stepnumber=1,                           % Line numbers go in steps of 1
+        escapeinside={(*@}{@*)}                 % Escape certain text
+}
+
+\newcounter{lstlinereffirst}
+\newcounter{lstlinereflast}
+
+\newcommand*\sepline{%
+  \begin{center}
+    \vspace{-1.75ex}
+    \rule[1ex]{.95\textwidth}{.5pt}
+    \vspace{-1.75ex}
+  \end{center}
+}
+
+% Enable Minus Sign Unicode Character?
+% \DeclareUnicodeCharacter{2212}{-}
